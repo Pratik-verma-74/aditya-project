@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#4f46e5">
+  <title>Offline | Exam Sathi Aditya</title>
+  <style>
+    :root {
+      --bg: #0a0e1f;
+      --card: #131936;
+      --ink: #eef0ff;
+      --muted: #a0a9d2;
+      --p: #6366f1;
+      --accent: #67e8f9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, system-ui, -apple-system, sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+    .box {
+      max-width: 420px;
+      padding: 32px 24px;
+      background: var(--card);
+      border-radius: 20px;
+      border: 1px solid rgba(255,255,255,0.1);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    .icon {
+      font-size: 54px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 22px;
+      margin: 0 0 10px;
+      color: #fff;
+    }
+    p {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+      margin: 0 0 20px;
+    }
+    button {
+      background: linear-gradient(120deg, #4338ca, #6d4df2);
+      color: #fff;
+      border: 0;
+      border-radius: 12px;
+      padding: 12px 24px;
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="icon">📡</div>
+    <h1>Aap Offline Hain</h1>
+    <p>Internet connection nahi mil raha. Lekin aapka saved study material, tasks aur planner offline bhi chalte rahenge.</p>
+    <button onclick="location.href='./index.html'">App Kholein</button>
+  </div>
+</body>
+</html>
+
